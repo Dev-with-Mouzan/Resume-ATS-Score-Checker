@@ -96,9 +96,9 @@ st.markdown("""
 
     /* Custom Input Styling */
     .stTextArea textarea {
-        background-color: rgba(0, 0, 0, 0.3) !important;
-        color: white !important;
-        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid rgba(0, 0, 0, 0.2) !important;
         border-radius: 10px;
     }
     
@@ -183,8 +183,10 @@ with col2:
     else:
         st.info("Supported format: PDF")
 
-# st.markdown("<br>", unsafe_allow_html=True)
-check_btn = st.button("✨ Analyze Resume Score")
+
+col1a, col2a, col3a = st.columns([1, 2, 1])
+with col2a:
+    check_btn = st.button("✨ Analyze Resume Score")
 
 # Logic
 import json 
