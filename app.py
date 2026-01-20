@@ -172,7 +172,7 @@ col1, col2 = st.columns(2, gap="large")
 
 with col1:
     st.markdown("### 📋 Job Description")
-    jd = st.text_area("Paste the text here", height=300, label_visibility="collapsed", placeholder="Paste the full job description here...")
+    jd = st.text_area("Paste the text here", height=200, label_visibility="collapsed", placeholder="Paste the full job description here...")
 
 with col2:
     st.markdown("### 📤 Upload Resume")
