@@ -158,7 +158,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header Section
-st.markdown("<h1 style='text-align: center; font-size: 3.5rem;'>🚀 Resume ATS Score Checker</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-size: 3.5rem; color: white;'>🚀 Resume ATS Score Checker</h1>", unsafe_allow_html=True)
 st.markdown("""
 <div style='text-align: center; margin-bottom: 3rem;'>
     <p style='font-size: 1.2rem; display: inline-block; background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.2);'>
