@@ -183,7 +183,7 @@ with col2:
     else:
         st.info("Supported format: PDF")
 
-st.markdown("<br>", unsafe_allow_html=True)
+# st.markdown("<br>", unsafe_allow_html=True)
 check_btn = st.button("✨ Analyze Resume Score")
 
 # Logic
