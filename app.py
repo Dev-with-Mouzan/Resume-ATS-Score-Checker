@@ -21,6 +21,12 @@ st.markdown("""
         font-family: 'Poppins', sans-serif;
     }
 
+    /* Reduce top padding */
+    .block-container {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
     /* Animated Background */
     .stApp {
         background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e);
@@ -160,7 +166,7 @@ st.markdown("""
 # Header Section
 st.markdown("<h3 style='text-align: center; font-size: 3.5rem; color: white;'>🚀 Resume ATS Score Checker</h3>", unsafe_allow_html=True)
 st.markdown("""
-<div style='text-align: center; margin-bottom: 3rem;'>
+<div style='text-align: center; margin-bottom: 1rem;'>
     <p style='font-size: 1.2rem; display: inline-block; background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.2);'>
         Optimize your resume for <b>Software Engineering</b>, <b>Data Science</b>, and more.
     </p>
